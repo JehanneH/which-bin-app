@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  organic: one
+  garbage: one
+  recycling: one
+
+two:
+  user: two
+  organic: two
+  garbage: two
+  recycling: two
