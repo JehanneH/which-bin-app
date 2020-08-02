@@ -51,9 +51,10 @@ document.addEventListener('DOMContentLoaded', () => {
           </Route>
         </Switch>
       </div>
-    </Router>
-  );
-}
+    </Router>,
+  document.body.appendChild(document.createElement('div'))
+  )
+})
 
 function Register() {
   return <h2>Register</h2>;
@@ -106,7 +107,4 @@ function Users() {
 function Userpage() {
   let { id } = useParams();
   return <h3>Requested user ID: {id}</h3>;
-},
-    document.body.appendChild(document.createElement('div'))
-  )
-})
+}
